@@ -16,9 +16,14 @@ class StringController
 {
 private:
     string derp;
+    string test1;
+    string test2;
     void stringOutput();
+    void intStringOutput();
     void stringCounter();
     void subString();
+    void stringCompare();
+    void emptyChecker();
 public:
     void start();
 };
